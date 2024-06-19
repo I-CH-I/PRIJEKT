@@ -1,0 +1,38 @@
+.navbar {
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background: transparent;
+    transition: color 0.3s;
+}
+
+.navbar-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-menu li {
+    margin: 0 15px;
+}
+
+.navbar-menu a {
+    color: #d9d9d9;
+    text-decoration: none;
+    padding: 8px 15px;
+    display: block;
+    transition: color 0.3s;
+}
+
+.navbar-menu a:hover {
+    color: #575757;
+}
+
+.navbar.scrolled .navbar-menu a {
+    color: #fcfcfc;
+}

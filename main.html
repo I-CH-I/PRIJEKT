@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IRTYSH ZEM</title>
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/listofservices.css">
+    <link rel="stylesheet" href="../css/photo.css">
+    <link rel="stylesheet" href="../css/contacts.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="navbar-menu">
+            <li><a href="#" id="scrollToWelcome">Главная</a></li>
+            <li><a href="#" id="scrollToPhoto">Фото</a></li>
+            <li><a href="#" id="contacts">Контакты</a></li>
+            <li><a href="#">Геолокация</a></li>
+        </ul>
+    </nav>
+    <div class="main-container" id="main_text_welcome">
+        <div class="main-text-welcome">
+            <div class="title-text"><p>IRTYSH ZEM</p></div>
+            <div class="disc-text"><p>НАША КОМПАНИЯ СПЕЦИАЛИЗИРУЕТСЯ НА ПРОФЕССИОНАЛЬНОЙ ПЕЧАТИ И СКАНИРОВАНИЕ ДОКУМЕНТОВ, А ТАКЖЕ СОЗДАНИЕ ИНДИВИДУАЛЬНЫХ ДИЗАЙНОВ ДЛЯ ОДЕЖДЫ И ИЗГОТОВЛЕНИЕ ПЕЧАТЕЙ.</p></div>
+            <button class="custom-button">КОНТАКТЫ</button>
+            <div class="line-left"></div>
+            <div class="line-right"></div>
+        </div>
+    </div>
+    <div class="list-of-services">
+        <div class="service-container">
+            <div class="title-text-services"><p>Услуги</p></div>
+            <div class="service-container-elements">
+                <div id="container" class="container"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container-photo" id="container_photo">
+        <div class="title-text-photo"><p>ФОТО</p></div>
+        <div class="title-text-disc-photo"><p>СНИЗУ ПРЕДСТАВЛЕНЫ НАШИ РАБОТЫ, КОТОРЫЕ МЫ ВЫПОЛНЯЛИ ДЛЯ ЗАКАЗЧИКОВ</p></div>
+        <div id="container_photo_img"></div>
+    </div>
+
+    <div id="overlay"></div>
+    <div id="contact-modal">
+        <h2>Контакты</h2>
+        <ul>
+            <li><a href="#">Телефон: +7 (705) 503-03-01</a></li>
+            <li><a href="https://www.instagram.com/klassnie_resheniya_semey/?hl=ru">Instagram: @klassnie_resheniya_semey</a></li>
+            <li><a href="#">Адрес: ул. Асета Найманбаева, 126/132</a></li>
+        </ul>
+        <button id="close-button">Закрыть</button>
+    </div>
+
+    <script src="../js/navbarscrol.js"></script>
+    <script src="../js/contact.js"></script>
+    <script src="../js/photo.js"></script>
+    <script src="../js/services.js"></script>
+    <script src="../js/scrollTo.js"></script>
+</body>
+</html>
